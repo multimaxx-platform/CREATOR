@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+transformers
+openai
+anthropic
+weaviate-client
+chromadb
+faiss-cpu
