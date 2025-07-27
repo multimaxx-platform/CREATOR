@@ -1,0 +1,34 @@
+{
+  "project": "CREATOR",
+  "user": "Олег Рославицкий",
+  "company": "Multimaxx",
+  "target": "Портал для гуманитариев с ИИ",
+  "infrastructure": {
+    "mac_ip": "195.158.67.204",
+    "user": "olegroslavitskiy",
+    "ssh_key": "oleg_key_rsa",
+    "project_path": "~/CREATOR",
+    "panel_url": "http://195.158.67.204:8090"
+  },
+  "current_status": {
+    "phase": "initialization",
+    "memory_system": "creating",
+    "langgraph": "pending",
+    "letto": "pending",
+    "agents": "active"
+  },
+  "architecture_plan": {
+    "backend": "Python/FastAPI",
+    "frontend": "React/TypeScript",
+    "database": "PostgreSQL",
+    "ai_integration": "OpenAI/Anthropic",
+    "deployment": "Hetzner"
+  },
+  "next_steps": [
+    "Создать четырехуровневую память",
+    "Подключить LangGraph",
+    "Интегрировать Letto",
+    "Настроить агентов",
+    "Запустить разработку портала"
+  ]
+}
